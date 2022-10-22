@@ -72,3 +72,14 @@ h1 {
   font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  row-gap: 20px;
+}
+
+.btn-container {
+  margin-top: 40px;
+}
