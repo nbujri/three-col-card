@@ -27,6 +27,7 @@
 
 h1 {
   color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
 }
 
 .card p {
@@ -35,6 +36,7 @@ h1 {
 
 .sedan {
   background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 0 0 5px;
 }
 
 .suv {
@@ -43,13 +45,15 @@ h1 {
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0 5px 5px 0;
 }
 
 .btn {
   background-color: hsl(0, 0%, 95%);
   border: none;
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 10px 20px;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .btn-sedan {
@@ -62,4 +66,9 @@ h1 {
 
 .btn-luxury {
   color: hsl(179, 100%, 13%);
+}
+
+.description > p {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
 }
